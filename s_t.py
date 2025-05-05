@@ -15,8 +15,8 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.title("🌍 Bienvenido al Traductor Global")
+st.subheader("🎧 Escucho lo que necesitas traducir")
 
 
 image = Image.open('OIG7.png')
@@ -29,7 +29,7 @@ with st.sidebar:
                  " la configuración de lenguaje que necesites.")
 
 
-st.write("Toca el Botón y habla lo que quires traducir")
+st.write("🗣️ Toca el botón y habla lo que quieras traducir")
 
 stt_button = Button(label=" Escuchar  🎤", width=300,  height=50)
 
